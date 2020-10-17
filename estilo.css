@@ -15,20 +15,21 @@ main {
 .menu a {
     color: white;
     text-decoration: none;
-    padding: 120px;
+    font-weight: bold;
+    padding: 30px;
     vertical-align: 35px;
+    text-align: center;
 }
-
 .menu {
-    background-color: #FF0000;
-    text-align: justify;
+    background-color: #e60000;
 }
 
 #logo {
     width: 11.9%;
-    margin-right: 160px;
+    margin-right: 450px;
     margin-bottom: -30px;
     margin-top: 8px;
+    margin-left: 120px;
 }
 
 .forma_pag_img img {
@@ -53,7 +54,7 @@ main {
     display: inline-block;
     font-size: large;
     border-radius: 5%;
-    text-align: center;
+    text-align: left;
     width: auto;
     margin: 12px 0px 0px 32px;
     padding-left: 20px;
@@ -65,11 +66,11 @@ main {
 
 .categorias {
     font-size: 18px;
-    font-weight: bold;
     display: inline-block;
     width: 20%;
     height: 1000px;
     vertical-align: bottom;
+    float: left;
 }
 
 .produtos {
@@ -92,4 +93,8 @@ main {
 .preco {
     color: red;
     font-weight: bold;
+}
+
+#cursor {
+    cursor: pointer;
 }
