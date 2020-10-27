@@ -1,8 +1,7 @@
 -- CRIAÇÃO DA TABELA PRODUTOS
 
 CREATE TABLE produtos (
-idproduto INT AUTO_INCREMENT PRIMARY KEY,
-data_inclusao DATETIME,
+idproduto INT AUTO_INCREMENT,
 categoria VARCHAR(45),
 descricao VARCHAR(150),                    
 preco DECIMAL(8,2),
@@ -12,7 +11,8 @@ PRIMARY KEY (idproduto)
 );
 
 INSERT INTO produtos (idproduto, categoria, descricao, preco, precofinal, imagem)
-VALUES ("100", "geladeira", "Geladeira Frost Free Brastemp Side Inverse 540 Litros", "6389.00", "5019.00", "imagens/produtos/geladeira_brastemp_2.png"),
+VALUES 
+("100", "geladeira", "Geladeira Frost Free Brastemp Side Inverse 540 Litros", "6389.00", "5019.00", "imagens/produtos/geladeira_brastemp_2.png"),
 ("geladeira", "Geladeira Frost Free Brastemp Branca 375 Litros", "2086.00", "1910.00", "imagens/produtos/geladeira_brastemp.png"),
 ("geladeira", "Geladeira Frost Free Consul Prata 340 Litros", "2199.90", "2069.00", "imagens/produtos/geladeira_consul.png"),
 ("fogao", "Fogão 4 Bocas Consul Inox com Mesa de Vidro", "1209.90", "1129.00", "imagens/produtos/fogao_consul.png"),
